@@ -134,8 +134,8 @@ body {
     <h1>江苏省高中数学教师编制招聘汇总</h1>
     <div class="subtitle">
       <span class="badge"><span class="dot green"></span>持续更新中</span>
-      <span>覆盖全省13个地市 · 60条招聘记录</span>
-      <span class="update-time">最后更新：<span id="lastUpdate">2026-06-09</span></span>
+      <span>覆盖全省13个地市 · 69条招聘记录</span>
+      <span class="update-time">最后更新：<span id="lastUpdate">2026-06-10</span></span>
     </div>
   </div>
 
@@ -219,10 +219,20 @@ body {
 
 <script src="https://cdn.jsdelivr.net/npm/gridjs@5.0.2/dist/gridjs.umd.js" integrity="sha384-/XXDzxe4FsGiAe50i/u9pY/Vy/uX654MHB1xoc1BJNnH1WXHhqHga9g3q5tF4gj7" crossorigin="anonymous"></script>
 <script>
-var recruitmentData = [
-  // 正在报名
-  { city:"连云港市", school:"江苏省板浦高级中学等", position:"高中数学教师", count:15, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2026年5月起", deadline:"2026-06-15", status:"open", statusText:"正在报名", source:"https://www.gaoxiaojob.com/job/detail/2155841.html" },
-  { city:"连云港市", school:"连云港市各区属高中", position:"高中数学教师2", count:2, type:"事业编制", education:"硕士及以上", applyTime:"2026年5月起", deadline:"2026-06-15", status:"open", statusText:"正在报名", source:"https://www.gaoxiaojob.com/job/detail/2207966.html" },
+	var recruitmentData = [
+	  // 正在报名（按截止日期排序）
+	  { city:"盐城市", school:"滨海县教育系统", position:"中小学教师（含高中数学）", count:56, type:"事业编制", education:"本科及以上", applyTime:"2026年6月8日-12日", deadline:"2026-06-12", status:"open", statusText:"正在报名", source:"http://www.binhai.gov.cn/art/2026/6/5/art_11038_4429763.html" },
+	  { city:"南京市", school:"南京江北新区教育局（骨干教师/表2）", position:"高中数学骨干教师", count:39, type:"事业编制", education:"本科及以上", applyTime:"2026年6月3日-16日", deadline:"2026-06-16", status:"open", statusText:"正在报名", source:"https://njna.nanjing.gov.cn/xwzx/tzgg/202606/t20260602_5850565.html" },
+	  { city:"南京市", school:"南京市大厂高级中学（江北新区）", position:"高中数学骨干教师", count:1, type:"事业编制（编内骨干）", education:"本科及以上（一级教师职称）", applyTime:"2026年6月3日-16日", deadline:"2026-06-16", status:"open", statusText:"正在报名", source:"http://www.njglrc.com/sydwzpDetails_66BA39EEC46F1D23.shtml" },
+	  { city:"连云港市", school:"灌云县教育局所属学校", position:"高中数学教师1", count:15, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2026年6月11日-15日", deadline:"2026-06-15", status:"open", statusText:"正在报名", source:"https://www.gongkaoleida.com/sitemap/jobs/2934618" },
+	  { city:"连云港市", school:"灌云县教育局所属学校", position:"高中数学教师2", count:1, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2026年6月11日-15日", deadline:"2026-06-15", status:"open", statusText:"正在报名", source:"https://www.gongkaoleida.com/sitemap/jobs/2934618" },
+	  { city:"连云港市", school:"江苏省灌云高级中学", position:"高中数学教师", count:3, type:"全额拨款事业编制", education:"硕士及以上", applyTime:"2026年6月11日-15日", deadline:"2026-06-15", status:"open", statusText:"正在报名", source:"https://www.gongkaoleida.com/sitemap/jobs/2934618" },
+	  { city:"盐城市", school:"江苏省建湖高级中学", position:"高中数学教师", count:1, type:"事业编制", education:"本科及以上", applyTime:"2026年6月6日-15日", deadline:"2026-06-15", status:"open", statusText:"正在报名", source:"https://zjzx.91job.org.cn/index.php?m=home&c=article&a=show&site=1&id=10685" },
+	  { city:"连云港市", school:"江苏省板浦高级中学等", position:"高中数学教师", count:15, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2026年5月起", deadline:"2026-06-15", status:"open", statusText:"正在报名", source:"https://www.gaoxiaojob.com/job/detail/2155841.html" },
+	  { city:"连云港市", school:"连云港市各区属高中", position:"高中数学教师2", count:2, type:"事业编制", education:"硕士及以上", applyTime:"2026年5月起", deadline:"2026-06-15", status:"open", statusText:"正在报名", source:"https://www.gaoxiaojob.com/job/detail/2207966.html" },
+
+	  // 长期招聘
+	  { city:"扬州市", school:"江苏省扬州中学", position:"高中数学竞赛指导教师", count:1, type:"事业编制（长期招聘）", education:"本科及以上（竞赛获奖优先）", applyTime:"长期有效", deadline:"2026-12-31", status:"open", statusText:"正在报名", source:"https://www.gaoxiaojob.com/job/detail/2082681.html" },
 
   // 连云港（已截止）
   { city:"连云港市", school:"连云港市教育局直属学校", position:"高中数学教师3", count:15, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2025年12月", deadline:"2026-01-15", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/job/detail/2207974.html" },
@@ -308,7 +318,6 @@ var recruitmentData = [
   { city:"宿迁市", school:"沭阳县公办学校（高层次）", position:"高中教师（含数学）", count:50, type:"全额拨款事业编制（购房补贴15-30万）", education:"硕士及以上", applyTime:"2026年3月16日-31日", deadline:"2026-03-31", status:"closed", statusText:"已截止", source:"https://sfxy.suda.edu.cn/8d/b6/c16443a691638/page.htm" },
   { city:"宿迁市", school:"沭阳县公办学校（常规）", position:"中小学教师（含数学）", count:230, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2026年3月23日-27日", deadline:"2026-03-27", status:"closed", statusText:"已截止", source:"https://sfxy.suda.edu.cn/8d/b6/c16443a691638/page.htm" },
   { city:"宿迁市", school:"宿迁市宿豫区各学校", position:"中小学教师（含数学）", count:26, type:"事业编制", education:"本科及以上", applyTime:"2026年春季", deadline:"2026-04-30", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/announcement/job-list?id=379537" }
-];
 
 var gridInstance = null;
 
@@ -402,7 +411,7 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('filterCity').addEventListener('change', applyFilters);
   document.getElementById('filterStatus').addEventListener('change', applyFilters);
   document.getElementById('filterEdu').addEventListener('change', applyFilters);
-  document.getElementById('lastUpdate').textContent = '2026-06-09';
+  document.getElementById('lastUpdate').textContent = '2026-06-10';
 });
 </script>
 </body>
