@@ -134,8 +134,8 @@ body {
     <h1>江苏省高中数学教师编制招聘汇总</h1>
     <div class="subtitle">
       <span class="badge"><span class="dot green"></span>持续更新中</span>
-      <span>覆盖全省13个地市 · 73条招聘记录</span>
-      <span class="update-time">最后更新：<span id="lastUpdate">2026-06-12</span></span>
+      <span>覆盖全省13个地市 · 87条招聘记录</span>
+      <span class="update-time">最后更新：<span id="lastUpdate">2026-06-17</span></span>
     </div>
   </div>
 
@@ -187,7 +187,7 @@ body {
       <a href="https://jshrss.jiangsu.gov.cn/" target="_blank">江苏省人社厅</a>
       &nbsp;|&nbsp;
       <a href="https://jyt.jiangsu.gov.cn/" target="_blank">江苏省教育厅</a>
-      &nbsp;|&nbsp;
+    </p>
     <p style="margin-top:6px">高校就业网等补充渠道：</p>
     <p>
       <a href="https://www.gaoxiaojob.com/" target="_blank">高校人才网</a>
@@ -198,8 +198,7 @@ body {
       &nbsp;|&nbsp;
       各高校就业网（南信大、北师大、兰大、西工大、苏大等）
     </p>
-    <p style="margin-top:6px">全省356所四星级高中官网（各校直接发布招聘）：南京35所/苏州46所/无锡34所/常州26所/镇江14所/南通35所/扬州22所/泰州24所/徐州43所/盐城31所/淮安15所/连云港21所/宿迁10所 — 包含南师附中、金陵中学、苏州中学、天一中学、锡山高中、省常中、扬州中学、南通中学、海安高中、淮阴中学、盐城中学、徐州一中、新海高中、泰州中学、镇江中学、宿迁中学等全部重点中学</p>
-    </p>
+    <p style="margin-top:6px">全省356所四星级高中官网（各校直接发布招聘）：南京35所/苏州46所/无锡34所/常州26所/镇江14所/南通35所/扬州22所/泰州24所/徐州43所/盐城31所/淮安15所/连云港21所/宿迁10所</p>
     <p style="margin-top:6px">各市人社局/教育局官网 — 搜索"XX市人力资源和社会保障局"或"XX市教育局"</p>
     <p style="margin-top:6px; font-size:12px">
       苏州 http://hrss.suzhou.gov.cn | 无锡 http://hrss.wuxi.gov.cn | 常州 http://rsj.changzhou.gov.cn |
@@ -219,34 +218,41 @@ body {
 
 <script src="https://cdn.jsdelivr.net/npm/gridjs@5.0.2/dist/gridjs.umd.js" integrity="sha384-/XXDzxe4FsGiAe50i/u9pY/Vy/uX654MHB1xoc1BJNnH1WXHhqHga9g3q5tF4gj7" crossorigin="anonymous"></script>
 <script>
-	var recruitmentData = [
-	  // 正在报名（按截止日期排序）
-	  { city:"盐城市", school:"滨海县教育系统", position:"中小学教师（含高中数学）", count:56, type:"事业编制", education:"本科及以上", applyTime:"2026年6月8日-12日", deadline:"2026-06-12", status:"open", statusText:"正在报名", source:"http://www.binhai.gov.cn/art/2026/6/5/art_11038_4429763.html" },
-	  { city:"南京市", school:"南京江北新区教育局（骨干教师/表2）", position:"高中数学骨干教师", count:39, type:"事业编制", education:"本科及以上", applyTime:"2026年6月3日-16日", deadline:"2026-06-16", status:"open", statusText:"正在报名", source:"https://njna.nanjing.gov.cn/xwzx/tzgg/202606/t20260602_5850565.html" },
-	  { city:"南京市", school:"南京市大厂高级中学（江北新区）", position:"高中数学骨干教师", count:1, type:"事业编制（编内骨干）", education:"本科及以上（一级教师职称）", applyTime:"2026年6月3日-16日", deadline:"2026-06-16", status:"open", statusText:"正在报名", source:"http://www.njglrc.com/sydwzpDetails_66BA39EEC46F1D23.shtml" },
-		  { city:"南京市", school:"南京市玄武区教育局（第十三中学等）", position:"高中数学教师", count:1, type:"事业编制", education:"本科及以上", applyTime:"2026年6月14日-18日", deadline:"2026-06-18", status:"open", statusText:"正在报名", source:"http://www.xwzf.gov.cn/xwqrmzf/202606/t20260610_5855359.html" },
-	  { city:"连云港市", school:"灌云县教育局所属学校", position:"高中数学教师1", count:15, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2026年6月11日-15日", deadline:"2026-06-15", status:"open", statusText:"正在报名", source:"https://www.gongkaoleida.com/sitemap/jobs/2934618" },
-	  { city:"连云港市", school:"灌云县教育局所属学校", position:"高中数学教师2", count:1, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2026年6月11日-15日", deadline:"2026-06-15", status:"open", statusText:"正在报名", source:"https://www.gongkaoleida.com/sitemap/jobs/2934618" },
-	  { city:"连云港市", school:"江苏省灌云高级中学", position:"高中数学教师", count:3, type:"全额拨款事业编制", education:"硕士及以上", applyTime:"2026年6月11日-15日", deadline:"2026-06-15", status:"open", statusText:"正在报名", source:"https://www.gongkaoleida.com/sitemap/jobs/2934618" },
-	  { city:"盐城市", school:"江苏省建湖高级中学", position:"高中数学教师", count:1, type:"事业编制", education:"本科及以上", applyTime:"2026年6月6日-15日", deadline:"2026-06-15", status:"open", statusText:"正在报名", source:"https://zjzx.91job.org.cn/index.php?m=home&c=article&a=show&site=1&id=10685" },
-	  { city:"连云港市", school:"江苏省板浦高级中学等", position:"高中数学教师", count:15, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2026年5月起", deadline:"2026-06-15", status:"open", statusText:"正在报名", source:"https://www.gaoxiaojob.com/job/detail/2155841.html" },
-	  { city:"连云港市", school:"连云港市各区属高中", position:"高中数学教师2", count:2, type:"事业编制", education:"硕士及以上", applyTime:"2026年5月起", deadline:"2026-06-15", status:"open", statusText:"正在报名", source:"https://www.gaoxiaojob.com/job/detail/2207966.html" },
+var recruitmentData = [
+  // ===== 正在报名（按截止日期排序） =====
+  { city:"南京市", school:"南京市玄武区教育局（第十三中学等）", position:"高中数学教师", count:1, type:"事业编制", education:"本科及以上", applyTime:"2026年6月14日-18日", deadline:"2026-06-18", status:"open", statusText:"正在报名", source:"http://www.xwzf.gov.cn/xwqrmzf/202606/t20260610_5855359.html" },
+  { city:"连云港市", school:"连云港市田家炳高级中学", position:"高中数学教师", count:2, type:"事业编制", education:"本科及以上", applyTime:"2026年6月起", deadline:"2026-06-18", status:"open", statusText:"正在报名", source:"https://www.gaoxiaojob.com/job/detail/2215925.html" },
+  { city:"宿迁市", school:"宿城区教育局", position:"高中数学教师", count:1, type:"事业编制", education:"硕士及以上", applyTime:"2026年6月起", deadline:"2026-06-22", status:"open", statusText:"正在报名", source:"https://www.gaoxiaojob.com/job/detail/2215671.html" },
+  { city:"无锡市", school:"无锡市教育局直属学校（银龄教师）", position:"高中数学银龄教师", count:"若干", type:"银龄教师计划（非编）", education:"退休教师（高级职称优先）", applyTime:"2026年6月起", deadline:"2026-07-15", status:"open", statusText:"正在报名", source:"https://jy.wuxi.gov.cn/doc/2026/06/02/4785025.shtml" },
+  { city:"扬州市", school:"江苏省扬州中学", position:"高中数学竞赛指导教师", count:1, type:"事业编制（长期招聘）", education:"本科及以上（竞赛获奖优先）", applyTime:"长期有效", deadline:"2026-12-31", status:"open", statusText:"正在报名", source:"https://www.gaoxiaojob.com/job/detail/2082681.html" },
 
-	  // 长期招聘
-	  { city:"扬州市", school:"江苏省扬州中学", position:"高中数学竞赛指导教师", count:1, type:"事业编制（长期招聘）", education:"本科及以上（竞赛获奖优先）", applyTime:"长期有效", deadline:"2026-12-31", status:"open", statusText:"正在报名", source:"https://www.gaoxiaojob.com/job/detail/2082681.html" },
+  // ===== 即将开始报名 =====
+  { city:"宿迁市", school:"宿迁市教育局直属学校（第二批）", position:"高中教师（含数学）", count:100, type:"公办学校事业编制", education:"本科及以上", applyTime:"2026年6月21日-25日", deadline:"2026-07-04", status:"upcoming", statusText:"即将开始", source:"https://sqhrss.suqian.gov.cn/rlzyj/rsxx/202606/1249f72f11ff4f41b14450c72506d2ca.shtml" },
 
-	  { city:"无锡市", school:"无锡市教育局直属学校（银龄教师）", position:"高中数学银龄教师", count:"若干", type:"银龄教师计划（非编）", education:"退休教师（高级职称优先）", applyTime:"2026年6月起", deadline:"2026-07-15", status:"open", statusText:"正在报名", source:"https://jy.wuxi.gov.cn/doc/2026/06/02/4785025.shtml" },
-  // 连云港（已截止）
-  { city:"连云港市", school:"连云港市教育局直属学校", position:"高中数学教师3", count:15, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2025年12月", deadline:"2026-01-15", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/job/detail/2207974.html" },
-  { city:"连云港市", school:"连云港市教育局直属学校（选聘）", position:"高中教师（含数学竞赛）", count:77, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2025年11月", deadline:"2025-12-31", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/announcement/job-list?id=357460" },
-  { city:"连云港市", school:"连云港市教育局直属学校（招聘）", position:"高中教师（含数学）", count:26, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2026年春季", deadline:"2026-03-31", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/announcement/job-list?id=393209" },
+  // ===== 已截止（按城市排列） =====
+  // 南京
+  { city:"南京市", school:"南京市栖霞区（南师附中思益科学高中等）", position:"高中数学骨干教师", count:1, type:"事业编制（编内）", education:"本科及以上（高级教师职称）", applyTime:"2026年6月", deadline:"2026-06-12", status:"closed", statusText:"已截止", source:"http://nj.bendibao.com/job/202661/181327.shtm" },
+  { city:"南京市", school:"南京江北新区教育局（骨干教师/表2）", position:"高中数学骨干教师", count:39, type:"事业编制", education:"本科及以上", applyTime:"2026年6月3日-16日", deadline:"2026-06-16", status:"closed", statusText:"已截止", source:"https://njna.nanjing.gov.cn/xwzx/tzgg/202606/t20260602_5850565.html" },
+  { city:"南京市", school:"南京市大厂高级中学（江北新区）", position:"高中数学骨干教师", count:1, type:"事业编制（编内骨干）", education:"本科及以上（一级教师职称）", applyTime:"2026年6月3日-16日", deadline:"2026-06-16", status:"closed", statusText:"已截止", source:"http://www.njglrc.com/sydwzpDetails_66BA39EEC46F1D23.shtml" },
+  { city:"南京市", school:"南京市高淳区教育系统（3所高中）", position:"高中教师（含数学竞赛教练）", count:35, type:"事业编制", education:"本科及以上", applyTime:"2026年4月14日-20日", deadline:"2026-04-20", status:"closed", statusText:"已截止", source:"https://career.bnuzh.edu.cn/web/Index/jobs-brief-detail?id=SXUXSQS" },
+  { city:"南京市", school:"南京市玄武高级中学", position:"高中数学教师", count:1, type:"事业编制", education:"本科及以上", applyTime:"2026年1月16日-20日", deadline:"2026-01-20", status:"closed", statusText:"已截止", source:"https://www.xwgjzx.com/?t=art&c=91&id=7267" },
+  { city:"南京市", school:"南京市中华中学", position:"高中数学教师", count:1, type:"事业编制", education:"本科及以上", applyTime:"2026年1月16日-20日", deadline:"2026-01-20", status:"closed", statusText:"已截止", source:"https://www.fenbi.com/page/position-detail/25338795" },
+  { city:"南京市", school:"秦淮区教育局所属学校", position:"中学教师（含数学）", count:60, type:"事业编制", education:"本科及以上", applyTime:"2026年1月16日-20日", deadline:"2026-01-20", status:"closed", statusText:"已截止", source:"https://edu.nanjing.gov.cn/bsfw/zpzk/202601/t20260109_5761503.html" },
+  { city:"南京市", school:"鼓楼区南京大学附属中学", position:"高中数学教师", count:1, type:"事业编制", education:"硕士及以上", applyTime:"2026年1月16日-20日", deadline:"2026-01-20", status:"closed", statusText:"已截止", source:"https://edu.nanjing.gov.cn/bsfw/zpzk/202601/t20260109_5761506.html" },
+  { city:"南京市", school:"高淳区三所高中", position:"高中教师（含数学）", count:30, type:"事业编制", education:"本科及以上", applyTime:"2026年1月", deadline:"2026-01-20", status:"closed", statusText:"已截止", source:"https://ccnu.91wllm.cn/teachin/view/id/238645/" },
+  { city:"南京市", school:"江宁区教育系统", position:"中小学教师（含高中数学）", count:455, type:"事业编制", education:"本科及以上", applyTime:"2026年1月16日-20日", deadline:"2026-01-20", status:"closed", statusText:"已截止", source:"https://zjzx.91job.org.cn/index.php?m=home&c=article&a=show&site=1&id=10223" },
+  { city:"南京市", school:"江北新区各学校（应届）", position:"高中教师（含数学）", count:20, type:"事业编制", education:"硕士及以上", applyTime:"以公告为准", deadline:"2026-01-20", status:"closed", statusText:"已截止", source:"https://www.cqbys.com/teachinOnline/view/id/130007" },
 
   // 苏州
+  { city:"苏州市", school:"苏州工业园区教育系统（高层次）", position:"高中教师（含数学）", count:85, type:"事业编制", education:"本科及以上", applyTime:"2026年春季", deadline:"2026-03-31", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/announcement/job-list?id=373299" },
+  { city:"苏州市", school:"苏州高新区教育系统（优秀毕业生）", position:"高中教师（含数学）", count:160, type:"事业编制", education:"本科及以上（研究生为主）", applyTime:"2026年3月16日-21日", deadline:"2026-03-28", status:"closed", statusText:"已截止", source:"https://hrss.suzhou.gov.cn/jsszhrss/gsgg/202603/53a976d2a3664e6da73e7902431f9ac6.shtml" },
+  { city:"苏州市", school:"张家港市教育系统", position:"中小学教师（含高中数学）", count:69, type:"事业编制", education:"本科及以上", applyTime:"2026年3月18日-24日", deadline:"2026-03-28", status:"closed", statusText:"已截止", source:"https://webs.nuist.edu.cn/_s98/2026/0313/c5510a295994/page.psp" },
   { city:"苏州市", school:"江苏省苏州中学校（第一批）", position:"高中数学教师", count:3, type:"事业编制", education:"博士（优秀可放宽至硕士）", applyTime:"2025年12月12日-18日", deadline:"2025-12-18", status:"closed", statusText:"已截止", source:"http://www.shssip.com/news_6505.html" },
   { city:"苏州市", school:"江苏省苏州中学校（第二批）", position:"高中数学教师", count:1, type:"事业编制", education:"博士（优秀可放宽至硕士）", applyTime:"2026年3月25日-31日", deadline:"2026-03-31", status:"closed", statusText:"已截止", source:"https://ste.nuist.edu.cn/2026/0323/c5510a296325/page.htm" },
   { city:"苏州市", school:"江苏省苏州第十中学校", position:"高中数学教师", count:1, type:"事业编制", education:"硕士及以上", applyTime:"2026年1月14日-18日", deadline:"2026-01-18", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/job/detail/2196081.html" },
   { city:"苏州市", school:"江苏省苏州第一中学校（高层次）", position:"高中数学教师", count:1, type:"事业编制", education:"硕士及以上", applyTime:"2026年1月", deadline:"2026-01-18", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/announcement/job-list?id=365364" },
   { city:"苏州市", school:"苏州市教育局直属学校", position:"中小学教师（含数学）", count:44, type:"事业编制", education:"本科及以上", applyTime:"2026年1月14日-18日", deadline:"2026-01-18", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/announcement/job-list?id=371809" },
+  { city:"苏州市", school:"华中师范大学苏州实验高中", position:"高中数学教师", count:1, type:"事业编制", education:"本科及以上", applyTime:"2026年春季", deadline:"2026-04-20", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/job/detail/2020352.html" },
   { city:"苏州市", school:"昆山市蓬朗高级中学", position:"高中数学教师", count:4, type:"事业编制", education:"研究生及以上", applyTime:"2025年11月", deadline:"2025-11-30", status:"closed", statusText:"已截止", source:"https://data.ks.gov.cn/kss/gsgg/202511/55c6d5bc94e046269e372f7d9bd53bae.shtml" },
   { city:"苏州市", school:"昆山市新建高中（多校代招）", position:"高中数学教师", count:2, type:"事业编制", education:"研究生及以上", applyTime:"2025年11月", deadline:"2025-11-30", status:"closed", statusText:"已截止", source:"https://data.ks.gov.cn/kss/gsgg/202511/55c6d5bc94e046269e372f7d9bd53bae.shtml" },
   { city:"苏州市", school:"昆山经济技术开发区高级中学", position:"高中数学教师", count:1, type:"事业编制", education:"研究生及以上", applyTime:"2025年11月", deadline:"2025-11-30", status:"closed", statusText:"已截止", source:"https://data.ks.gov.cn/kss/gsgg/202511/55c6d5bc94e046269e372f7d9bd53bae.shtml" },
@@ -254,22 +260,18 @@ body {
   { city:"苏州市", school:"吴江区各高中（多校）", position:"高中教师（含数学）", count:36, type:"事业编制", education:"研究生及以上（优秀本科可放宽）", applyTime:"2025年12月21日-25日", deadline:"2025-12-25", status:"closed", statusText:"已截止", source:"https://ste.nuist.edu.cn/2025/1215/c5510a293162/page.htm" },
   { city:"苏州市", school:"吴江区教育系统（第二批）", position:"中小学教师（含数学）", count:236, type:"事业编制", education:"本科及以上", applyTime:"2026年4月9日-13日", deadline:"2026-04-13", status:"closed", statusText:"已截止", source:"https://webs.nuist.edu.cn/_s98/2026/0402/c5510a296681/page.psp" },
   { city:"苏州市", school:"常熟市教育系统", position:"中小学教师（含数学）", count:230, type:"事业编制", education:"本科及以上", applyTime:"2025年12月", deadline:"2025-12-25", status:"closed", statusText:"已截止", source:"https://webs.nuist.edu.cn/_s98/2025/1218/c5510a293293/page.psp" },
-
-  // 南京
-  { city:"南京市", school:"南京市玄武高级中学", position:"高中数学教师", count:1, type:"事业编制", education:"本科及以上", applyTime:"2026年1月16日-20日", deadline:"2026-01-20", status:"closed", statusText:"已截止", source:"https://www.xwgjzx.com/?t=art&c=91&id=7267" },
-  { city:"南京市", school:"南京市中华中学", position:"高中数学教师", count:1, type:"事业编制", education:"本科及以上", applyTime:"2026年1月16日-20日", deadline:"2026-01-20", status:"closed", statusText:"已截止", source:"https://www.fenbi.com/page/position-detail/25338795" },
-  { city:"南京市", school:"秦淮区教育局所属学校", position:"中学教师（含数学）", count:60, type:"事业编制", education:"本科及以上", applyTime:"2026年1月16日-20日", deadline:"2026-01-20", status:"closed", statusText:"已截止", source:"https://edu.nanjing.gov.cn/bsfw/zpzk/202601/t20260109_5761503.html" },
-  { city:"南京市", school:"鼓楼区南京大学附属中学", position:"高中数学教师", count:1, type:"事业编制", education:"硕士及以上", applyTime:"2026年1月16日-20日", deadline:"2026-01-20", status:"closed", statusText:"已截止", source:"https://edu.nanjing.gov.cn/bsfw/zpzk/202601/t20260109_5761506.html" },
-  { city:"南京市", school:"高淳区三所高中", position:"高中教师（含数学）", count:30, type:"事业编制", education:"本科及以上", applyTime:"2026年1月", deadline:"2026-01-20", status:"closed", statusText:"已截止", source:"https://ccnu.91wllm.cn/teachin/view/id/238645/" },
-  { city:"南京市", school:"江北新区各学校", position:"高中教师（含数学）", count:20, type:"事业编制", education:"硕士及以上", applyTime:"以公告为准", deadline:"2026-01-20", status:"closed", statusText:"已截止", source:"https://www.cqbys.com/teachinOnline/view/id/130007" },
+  { city:"苏州市", school:"苏州工业园区德元新融学校（高中）", position:"高中数学教师", count:"若干", type:"事业编制", education:"本科及以上", applyTime:"2026年5月起", deadline:"2026-05-31", status:"closed", statusText:"已截止", source:"https://www.sipac.gov.cn/szgyyq/whjy/202605/49309840318c460d9b9e792d9979497c.shtml" },
+  { city:"苏州市", school:"江苏省木渎高级中学", position:"高中数学竞赛辅导教师", count:1, type:"事业编制", education:"本科及以上", applyTime:"2026年春季", deadline:"2026-04-20", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/job/detail/2020348.html" },
 
   // 无锡
   { city:"无锡市", school:"无锡市教育局直属学校（第一批）", position:"高中数学教师", count:18, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2026年1月21日-26日", deadline:"2026-01-26", status:"closed", statusText:"已截止", source:"https://zjzx.91job.org.cn/index.php?m=home&c=article&a=show&site=1&id=10258" },
   { city:"无锡市", school:"无锡市教育局直属学校（第二批）", position:"高中数学教师（需任教经历）", count:7, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2026年4月13日-17日", deadline:"2026-04-17", status:"closed", statusText:"已截止", source:"https://jy.wuxi.gov.cn/doc/2026/04/08/4756444.shtml" },
   { city:"无锡市", school:"江苏省天一中学（锡山区）", position:"中学数学教师（含竞赛）", count:4, type:"全额拨款事业编制", education:"研究生及以上", applyTime:"2026年1月", deadline:"2026-02-28", status:"closed", statusText:"已截止", source:"https://webs.nuist.edu.cn/_s98/2026/0122/c5510a294735/page.psp" },
+  { city:"无锡市", school:"江苏省天一中学宛山湖分校", position:"高中数学教师", count:3, type:"全额拨款事业编制", education:"研究生及以上", applyTime:"2026年春季", deadline:"2026-04-30", status:"closed", statusText:"已截止", source:"https://fenbi.com/page/position-detail/27886536" },
   { city:"无锡市", school:"惠山区省锡中教育集团（第一批）", position:"中学数学教师", count:7, type:"全额拨款事业编制", education:"研究生及以上", applyTime:"2026年3月4日-8日", deadline:"2026-03-08", status:"closed", statusText:"已截止", source:"https://hrss.wuxi.gov.cn/doc/2026/04/09/4757281.shtml" },
   { city:"无锡市", school:"惠山区教育系统（第二批）", position:"中学数学教师", count:5, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2026年4月14日-18日", deadline:"2026-04-18", status:"closed", statusText:"已截止", source:"https://hrss.wuxi.gov.cn/doc/2026/04/09/4757281.shtml" },
   { city:"无锡市", school:"南菁高级中学绮山湖分校", position:"高中教师（含数学）", count:10, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2026年5月23日-27日", deadline:"2026-05-27", status:"closed", statusText:"已截止", source:"http://www.jiangyin.gov.cn/doc/2026/05/20/1395371.shtml" },
+  { city:"无锡市", school:"江苏省锡东高级中学（含大成分校）", position:"高中数学教师", count:2, type:"全额拨款事业编制", education:"硕士及以上", applyTime:"2026年1月", deadline:"2026-01-27", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/job/detail/1987995.html" },
 
   // 常州
   { city:"常州市", school:"常州市教育系统「优才计划」", position:"高中教师（含数学）", count:301, type:"事业编制", education:"本科及以上", applyTime:"2026年1月12日-16日", deadline:"2026-01-16", status:"closed", statusText:"已截止", source:"https://rsj.changzhou.gov.cn/index.php?c=phone&a=show&id=49591&catid=33943" },
@@ -281,30 +283,47 @@ body {
   { city:"常州市", school:"常州市正行中学（市一中分校）", position:"高中教师（含数学）", count:22, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2026年1月", deadline:"2026-01-31", status:"closed", statusText:"已截止", source:"https://career.bnuzh.edu.cn/index.php/web/Index/jobs-brief-detail?id=SEUXSRP" },
 
   // 徐州
+  { city:"徐州市", school:"徐州市教育局直属学校（面向2026毕业生）", position:"高中教师（含数学）", count:151, type:"事业编制", education:"硕士及以上", applyTime:"2026年3月11日-18日", deadline:"2026-03-18", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/announcement/job-list?id=380841" },
+  { city:"徐州市", school:"徐州市教育局直属学校（面向社会）", position:"中小学教师（含数学）", count:109, type:"事业编制", education:"本科及以上", applyTime:"2026年4-5月", deadline:"2026-05-31", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/announcement/job-list?id=397714" },
+  { city:"徐州市", school:"徐州市第一中学", position:"高中数学教师", count:1, type:"事业编制", education:"硕士及以上", applyTime:"2026年3月11日-18日", deadline:"2026-03-18", status:"closed", statusText:"已截止", source:"https://fenbi.com/page/exam-information-detail/464856114548737" },
+  { city:"徐州市", school:"沛县面向2026毕业生（统招）", position:"高中数学教师（含沛城高中、汉兴高中等）", count:16, type:"事业编制", education:"本科及以上", applyTime:"2025年12月", deadline:"2025-12-20", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/announcement/job-list?id=370027" },
   { city:"徐州市", school:"沛县大屯矿区第一中学", position:"高中数学教师", count:8, type:"事业编制", education:"本科及以上", applyTime:"2025年12月", deadline:"2025-12-20", status:"closed", statusText:"已截止", source:"https://fenbi.com/page/position-detail/25116154" },
   { city:"徐州市", school:"沛县汉兴高级中学", position:"高中数学教师", count:1, type:"事业编制", education:"本科及以上", applyTime:"2025年12月", deadline:"2025-12-20", status:"closed", statusText:"已截止", source:"https://m.fenbi.com/page/positions/10/466868" },
 
   // 镇江
+  { city:"镇江市", school:"镇江经济技术开发区（心湖高级中学等）", position:"高中数学教师", count:1, type:"事业编制", education:"本科及以上", applyTime:"2026年2月26日-3月3日", deadline:"2026-03-03", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/announcement/job-list?id=380139" },
   { city:"镇江市", school:"江苏省大港中学", position:"高中数学教师", count:1, type:"事业编制", education:"研究生及以上", applyTime:"2025年11月", deadline:"2025-11-30", status:"closed", statusText:"已截止", source:"https://fenbi.com/page/position-detail/24366719" },
   { city:"镇江市", school:"镇江市丹徒高级中学", position:"高中数学教师", count:2, type:"事业编制", education:"研究生及以上", applyTime:"2025年11月", deadline:"2025-11-30", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/announcement/job-list?id=379494" },
   { city:"镇江市", school:"扬中市各学校", position:"高中数学教师", count:2, type:"事业编制", education:"本科及以上", applyTime:"2026年2月26日-3月3日", deadline:"2026-03-03", status:"closed", statusText:"已截止", source:"https://zjzx.91job.org.cn/index.php?m=home&c=article&a=show&site=1&id=10317" },
-  { city:"镇江市", school:"镇江经开区心湖高级中学", position:"高中数学教师", count:1, type:"事业编制", education:"本科及以上", applyTime:"2025年12月", deadline:"2025-12-30", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/announcement/job-list?id=380139" },
   { city:"镇江市", school:"句容市城区高中", position:"高中数学教师", count:2, type:"全额拨款事业编制", education:"研究生及以上", applyTime:"2025年11月13日-19日", deadline:"2025-11-19", status:"closed", statusText:"已截止", source:"https://zjzx.91job.org.cn/index.php?m=home&c=article&a=show&site=1&id=9989" },
+  { city:"镇江市", school:"丹阳市5所高级中学（南京考点）", position:"高中数学教师", count:5, type:"全额拨款事业编制", education:"研究生及以上", applyTime:"2025年11月", deadline:"2025-11-30", status:"closed", statusText:"已截止", source:"https://www.fenbi.com/page/position-detail/24396954" },
 
   // 泰州
+  { city:"泰州市", school:"泰州市教育局直属学校（统招52名）", position:"高中数学教师", count:4, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2026年4月24日-28日", deadline:"2026-05-10", status:"closed", statusText:"已截止", source:"http://jyj.taizhou.gov.cn/cms_files/filemanager/467495971/attach/20264/4673820f1ecc49f0a575f1ff174f64ec.html" },
+  { city:"泰州市", school:"江苏省泰州中学（校园招聘）", position:"高中数学教师+竞赛教练", count:4, type:"全额拨款事业编制", education:"研究生及以上（竞赛教练本科）", applyTime:"2025年12月", deadline:"2025-12-31", status:"closed", statusText:"已截止", source:"https://jyj.taizhou.gov.cn/gsgg/art/2025/art_86fe1a0d78cd4a209cf2e327cdb6919c.html" },
   { city:"泰州市", school:"兴化市各高中（多校）", position:"高中教师（含数学）", count:18, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2025年12月26日-31日", deadline:"2025-12-31", status:"closed", statusText:"已截止", source:"https://zjzx.91job.org.cn/index.php?m=home&c=article&a=show&site=1&id=10162" },
   { city:"泰州市", school:"江苏省姜堰中学", position:"高中数学竞赛教师", count:2, type:"事业编制（年薪30-50万）", education:"本科及以上（竞赛获奖优先）", applyTime:"2026年3月4日-10日", deadline:"2026-03-10", status:"closed", statusText:"已截止", source:"https://www.jiangyan.gov.cn/tzgg/art/2026/art_879aef15580646f58f4643dc003eea8e.html" },
   { city:"泰州市", school:"靖江市教育局（含省靖中等）", position:"高中教师（含数学）", count:25, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2025年12月13日-19日", deadline:"2025-12-19", status:"closed", statusText:"已截止", source:"http://www.jingjiang.gov.cn/xwzx/gggs/rs/art/2025/art_124dfc1f89334af383850ee1014e372a.html" },
 
   // 南通
+  { city:"南通市", school:"南通市教育局直属学校（首轮4考点）", position:"高中数学教师", count:12, type:"事业编制（专技12级）", education:"研究生及以上", applyTime:"2025年11月17日-21日", deadline:"2025-11-21", status:"closed", statusText:"已截止", source:"https://www.nantong.gov.cn/ntsrsj/upload/bb77f929-16a8-45c9-bfb4-51b4c30bc742.pdf" },
+  { city:"南通市", school:"南通市教育局直属学校（春季第二批）", position:"高中教师（含数学）", count:145, type:"事业编制", education:"研究生及以上", applyTime:"2026年4月中旬", deadline:"2026-04-30", status:"closed", statusText:"已截止", source:"http://nt.bendibao.com/job/2026413/71554.shtm" },
+  { city:"南通市", school:"通州区教育体育系统", position:"高中数学教师", count:4, type:"事业编制", education:"硕士及以上", applyTime:"2026年春季", deadline:"2026-04-27", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/announcement/job-list?id=395179" },
   { city:"南通市", school:"江苏省海安高级中学", position:"高中教师（含数学）", count:9, type:"事业编制", education:"研究生及以上", applyTime:"2025年12月8日-12日", deadline:"2025-12-12", status:"closed", statusText:"已截止", source:"http://www.haian.gov.cn/hasjyj/rsxx/content/eaefbfd9-6dfb-464f-b15d-f159e529e642.html" },
   { city:"南通市", school:"江苏省通州高级中学", position:"高中教师（含数学）", count:10, type:"全额拨款事业编制", education:"硕士及以上", applyTime:"2025年12月4日-9日", deadline:"2025-12-09", status:"closed", statusText:"已截止", source:"https://webs.nuist.edu.cn/_s98/2025/1203/c5510a292799/page.psp" },
   { city:"南通市", school:"海门区教体系统各学校", position:"中小学教师（含数学）", count:68, type:"事业编制", education:"本科及以上", applyTime:"2026年春季", deadline:"2026-03-28", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/announcement/job-list?id=395280" },
-  { city:"南通市", school:"如东县教育体育系统", position:"中小学数学教师", count:1, type:"事业编制", education:"本科及以上", applyTime:"2026年春季", deadline:"2026-03-31", status:"closed", statusText:"已截止", source:"https://fenbi.com/page/position-detail/25374038" },
+  { city:"南通市", school:"如东县教育体育系统", position:"中小学数学教师", count:2, type:"事业编制", education:"研究生及以上", applyTime:"2026年春季", deadline:"2026-03-31", status:"closed", statusText:"已截止", source:"https://fenbi.com/page/position-detail/25374025" },
 
   // 盐城
-  { city:"盐城市", school:"大丰区教育系统", position:"中小学教师（含数学）", count:50, type:"事业编制", education:"本科及以上", applyTime:"2026年4月", deadline:"2026-04-07", status:"closed", statusText:"已截止", source:"https://qgsydw.com/qgsydw/recruit/insrecruit/20260407/198403.html" },
+  { city:"盐城市", school:"盐城市教育局直属学校（上半年）", position:"高中教师（含数学）", count:91, type:"全额事业编制", education:"硕士及以上", applyTime:"2026年5月18日-24日", deadline:"2026-05-24", status:"closed", statusText:"已截止", source:"http://ycedu.yancheng.gov.cn/art/2026/5/15/art_714_4425295.html" },
   { city:"盐城市", school:"建湖县教育系统", position:"中小学教师（含数学）", count:81, type:"事业编制", education:"本科及以上", applyTime:"2026年3月24日起", deadline:"2026-04-13", status:"closed", statusText:"已截止", source:"https://www.jianhu.gov.cn/art/2026/3/24/art_12512_4412039.html" },
+  { city:"盐城市", school:"建湖县教育系统（第二批）", position:"中小学教师（含数学）", count:58, type:"事业编制", education:"本科及以上", applyTime:"2026年6月6日-15日", deadline:"2026-06-15", status:"closed", statusText:"已截止", source:"https://baokao.offcn.com/ggcx/gg/219059.html" },
+  { city:"盐城市", school:"江苏省建湖高级中学", position:"高中数学教师", count:1, type:"事业编制", education:"本科及以上", applyTime:"2026年6月6日-15日", deadline:"2026-06-15", status:"closed", statusText:"已截止", source:"https://zjzx.91job.org.cn/index.php?m=home&c=article&a=show&site=1&id=10685" },
+  { city:"盐城市", school:"江苏省建湖高级中学", position:"高中数学竞赛指导教师", count:1, type:"事业编制", education:"硕士及以上", applyTime:"2026年3月24日起", deadline:"2026-04-13", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/job/detail/2206497.html" },
+  { city:"盐城市", school:"滨海县教育系统", position:"中小学教师（含高中数学）", count:56, type:"事业编制", education:"本科及以上", applyTime:"2026年6月8日-12日", deadline:"2026-06-12", status:"closed", statusText:"已截止", source:"http://www.binhai.gov.cn/art/2026/6/5/art_11038_4429763.html" },
+  { city:"盐城市", school:"大丰区教育系统", position:"中小学教师（含数学）", count:50, type:"事业编制", education:"本科及以上", applyTime:"2026年4月", deadline:"2026-04-07", status:"closed", statusText:"已截止", source:"https://qgsydw.com/qgsydw/recruit/insrecruit/20260407/198403.html" },
+  { city:"盐城市", school:"阜宁县教育局", position:"中小学教师（含高中数学）", count:70, type:"事业编制", education:"硕士及以上", applyTime:"2026年春季", deadline:"2026-03-31", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/announcement/job-list?id=386425" },
+  { city:"盐城市", school:"东台市教育系统", position:"高中教师（含数学）", count:95, type:"事业编制", education:"本科及以上", applyTime:"2026年春季", deadline:"2026-05-11", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/announcement/job-list?id=367283" },
 
   // 淮安
   { city:"淮安市", school:"江苏省淮阴中学", position:"高中教师（含数学）", count:17, type:"事业编制", education:"硕士及以上", applyTime:"2025年11月-12月4日", deadline:"2025-12-04", status:"closed", statusText:"已截止", source:"http://rsj.huaian.gov.cn:3001/col/4588_227787/art/17619264/1763971863788X6RCRMN0.html" },
@@ -312,14 +331,31 @@ body {
   { city:"淮安市", school:"淮安市淮阴区", position:"中小学教师（含数学）", count:82, type:"事业编制", education:"本科及以上", applyTime:"2026年5月9日-13日", deadline:"2026-05-13", status:"closed", statusText:"已截止", source:"https://ste.nuist.edu.cn/2026/0506/c5510a297603/page.htm" },
 
   // 扬州
+  { city:"扬州市", school:"江苏省扬州中学（1月批次）", position:"高中数学教师", count:3, type:"事业编制（全额拨款）", education:"研究生及以上（优秀本科可放宽）", applyTime:"2026年1月", deadline:"2026-01-31", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/announcement/job-list?id=373274" },
+  { city:"扬州市", school:"江苏省扬州中学（4月批次）", position:"高中数学教师", count:1, type:"事业编制", education:"本科及以上", applyTime:"2026年4月6日-11日", deadline:"2026-04-11", status:"closed", statusText:"已截止", source:"http://www.yzzx.org/xxgk/xxtz1/content_9421" },
+  { city:"扬州市", school:"江苏省扬州中学（5月成熟教师）", position:"高中数学教师", count:2, type:"事业编制", education:"本科及以上", applyTime:"2026年5月23日-29日", deadline:"2026-06-13", status:"closed", statusText:"已截止", source:"http://jyj.yangzhou.gov.cn/zfxxgk/fdzdgknr/tzgg/art/2026/art_27b8c64bb4e9425bb1fbdbe48e1126cc.html" },
   { city:"扬州市", school:"扬州市教育系统事业单位", position:"高中教师（含数学）", count:1, type:"事业编制", education:"本科及以上", applyTime:"2026年1月", deadline:"2026-01-31", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/announcement/job-list?id=372354" },
-  { city:"扬州市", school:"江苏省扬州中学", position:"高中教师（含数学）", count:10, type:"事业编制", education:"本科及以上", applyTime:"2026年5月23日-29日", deadline:"2026-05-29", status:"closed", statusText:"已截止", source:"http://jyj.yangzhou.gov.cn/zfxxgk/fdzdgknr/tzgg/art/2026/art_27b8c64bb4e9425bb1fbdbe48e1126cc.html" },
+  { city:"扬州市", school:"扬州市第一中学", position:"高中数学教师", count:1, type:"事业编制", education:"本科及以上", applyTime:"2026年春季", deadline:"2026-04-13", status:"closed", statusText:"已截止", source:"https://m.jinbiaochi.com/qgjsgz/news_849755.html" },
+
+  // 连云港
+  { city:"连云港市", school:"灌云县教育局所属学校", position:"高中数学教师1", count:15, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2026年6月11日-15日", deadline:"2026-06-15", status:"closed", statusText:"已截止", source:"https://www.gongkaoleida.com/sitemap/jobs/2934618" },
+  { city:"连云港市", school:"灌云县教育局所属学校", position:"高中数学教师2", count:1, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2026年6月11日-15日", deadline:"2026-06-15", status:"closed", statusText:"已截止", source:"https://www.gongkaoleida.com/sitemap/jobs/2934618" },
+  { city:"连云港市", school:"江苏省灌云高级中学", position:"高中数学教师", count:3, type:"全额拨款事业编制", education:"硕士及以上", applyTime:"2026年6月11日-15日", deadline:"2026-06-15", status:"closed", statusText:"已截止", source:"https://www.gongkaoleida.com/sitemap/jobs/2934618" },
+  { city:"连云港市", school:"江苏省板浦高级中学等", position:"高中数学教师", count:1, type:"全额拨款事业编制", education:"硕士及以上", applyTime:"2026年5月起", deadline:"2026-06-15", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/job/detail/2155841.html" },
+  { city:"连云港市", school:"连云港市新浦中学", position:"高中数学教师", count:1, type:"事业编制", education:"硕士及以上", applyTime:"2026年5月起", deadline:"2026-06-15", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/job/detail/2155846.html" },
+  { city:"连云港市", school:"连云港市教育局直属学校（选聘）", position:"高中教师（含数学竞赛）", count:77, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2025年11月", deadline:"2025-12-31", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/announcement/job-list?id=357460" },
+  { city:"连云港市", school:"连云港市教育局直属学校（招聘）", position:"高中教师（含数学）", count:26, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2026年春季", deadline:"2026-03-31", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/announcement/job-list?id=393209" },
+  { city:"连云港市", school:"海州区教育局所属学校（高层次）", position:"高中教师（含数学）", count:20, type:"事业编制", education:"硕士及以上", applyTime:"2026年春季", deadline:"2026-05-31", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/announcement/job-list?id=398409" },
 
   // 宿迁
-  { city:"宿迁市", school:"宿迁市教育局直属学校（多所）", position:"中小学教师（含数学）", count:134, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2026年5月9日-15日", deadline:"2026-05-15", status:"closed", statusText:"已截止", source:"http://sqhrss.suqian.gov.cn/rlzyj/rsxx/202605/30dc7569aba944158d30a2c49e7aeb77.shtml" },
+  { city:"宿迁市", school:"宿迁市教育局直属学校（第一批）", position:"中小学教师（含数学）", count:134, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2026年5月9日-15日", deadline:"2026-05-15", status:"closed", statusText:"已截止", source:"http://sqhrss.suqian.gov.cn/rlzyj/rsxx/202605/30dc7569aba944158d30a2c49e7aeb77.shtml" },
   { city:"宿迁市", school:"沭阳县公办学校（高层次）", position:"高中教师（含数学）", count:50, type:"全额拨款事业编制（购房补贴15-30万）", education:"硕士及以上", applyTime:"2026年3月16日-31日", deadline:"2026-03-31", status:"closed", statusText:"已截止", source:"https://sfxy.suda.edu.cn/8d/b6/c16443a691638/page.htm" },
   { city:"宿迁市", school:"沭阳县公办学校（常规）", position:"中小学教师（含数学）", count:230, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2026年3月23日-27日", deadline:"2026-03-27", status:"closed", statusText:"已截止", source:"https://sfxy.suda.edu.cn/8d/b6/c16443a691638/page.htm" },
-  { city:"宿迁市", school:"宿迁市宿豫区各学校", position:"中小学教师（含数学）", count:26, type:"事业编制", education:"本科及以上", applyTime:"2026年春季", deadline:"2026-04-30", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/announcement/job-list?id=379537" }
+  { city:"宿迁市", school:"宿迁市宿豫区各学校", position:"中小学教师（含数学）", count:26, type:"事业编制", education:"本科及以上", applyTime:"2026年春季", deadline:"2026-04-30", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/announcement/job-list?id=379537" },
+  { city:"宿迁市", school:"宿迁市湖滨高级中学", position:"高中数学教师", count:2, type:"全额拨款事业编制", education:"硕士及以上", applyTime:"2026年春季", deadline:"2026-05-15", status:"closed", statusText:"已截止", source:"https://www.gaoxiaojob.com/job/detail/2162955.html" },
+  { city:"宿迁市", school:"江苏省宿迁中学", position:"高中数学教师", count:1, type:"全额拨款事业编制", education:"本科及以上", applyTime:"2026年春季", deadline:"2026-04-30", status:"closed", statusText:"已截止", source:"https://m.fenbi.com/page/positions/10/477041?region=1978" },
+  { city:"宿迁市", school:"沭阳县建陵高级中学", position:"高中教师（含数学）", count:15, type:"全额拨款事业编制", education:"硕士及以上", applyTime:"2026年3月16日-31日", deadline:"2026-03-31", status:"closed", statusText:"已截止", source:"https://job.neu.edu.cn/campus/view/id/561563" }
+];
 
 var gridInstance = null;
 
@@ -342,10 +378,10 @@ function buildGrid(data) {
     columns: [
       { id:'city', name:'城市', sort:true, width:'90px' },
       { id:'school', name:'招聘单位', sort:true, width:'240px' },
-      { id:'position', name:'岗位', width:'150px' },
+      { id:'position', name:'岗位', width:'180px' },
       { id:'count', name:'人数', sort:true, width:'60px', formatter: function(c) { return gridjs.html('<strong>'+c+'</strong>'); } },
-      { id:'type', name:'编制类型', width:'170px' },
-      { id:'education', name:'学历要求', sort:true, width:'150px' },
+      { id:'type', name:'编制类型', width:'190px' },
+      { id:'education', name:'学历要求', sort:true, width:'160px' },
       { id:'applyTime', name:'报名时间', width:'180px' },
       { id:'deadline', name:'截止日期', sort:true, width:'110px' },
       { id:'status', name:'状态', width:'90px', formatter: function(c, r) { return gridjs.html(getStatusHTML(c, r.statusText)); } },
@@ -413,7 +449,7 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('filterCity').addEventListener('change', applyFilters);
   document.getElementById('filterStatus').addEventListener('change', applyFilters);
   document.getElementById('filterEdu').addEventListener('change', applyFilters);
-  document.getElementById('lastUpdate').textContent = '2026-06-12';
+  document.getElementById('lastUpdate').textContent = '2026-06-17';
 });
 </script>
 </body>
